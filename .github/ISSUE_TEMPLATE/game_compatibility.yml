@@ -13,8 +13,8 @@ body:
   - type: textarea
     id: hardware-specs
     attributes:
-      placeholder: Hardware Specs (If necessary)
-      value: |
+      label: Hardware Specs (If necessary)
+      placeholder: |
         - ##### CPU: *(e.g. i7-6700)*
         - ##### GPU: *(e.g. NVIDIA RTX 2070)*
     validations:
