@@ -1,0 +1,55 @@
+name: Game Compatibility
+description: Report a game's compatibility status on Panda3DS
+body:
+  - type: input
+    id: game-name
+    attributes:
+      label: Game Name (and version if necessary)
+      placeholder: ## Game Name
+    validations:
+      required: true
+    validations:
+      required: true
+  - type: textarea
+    id: hardware-specs
+    attributes:
+      label: Hardware Specs (If necessary)
+      value: |
+        - ##### CPU: *(e.g. i7-6700)*
+        - ##### GPU: *(e.g. NVIDIA RTX 2070)*
+    validations:
+      required: false
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Operating System
+      placeholder: (eg Windows 10, MacOS Big Sur, Ubuntu 20.04...)
+      description: >
+        The OS of the system you're running Panda3DS on
+  - type: textarea
+    id: game-state
+    attributes:
+      label: "Game State"
+      description: "Describe the current game state here."
+      placeholder: /
+        - Describe the current game state here. 
+        - List the issues you've noticed if there are any. 
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: Add screenshots here if needed
+      placeholder: Drag and drop the images/screenshots onto the text area.
+    validations:
+      required: false
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Additional information
+      description: >-
+        If you have any additional information for us, use the field below. Feel free to share your saves and config.toml if you think it'd help us reproduce and debug your problem.
+        For bugs where a screenshot or video would be useful (eg rendering or audio bugs), please attach one as well.
