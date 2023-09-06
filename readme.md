@@ -12,7 +12,7 @@ When you update or add additional information in an issue, please reply to the i
 - `status-playable` - Boots and plays without any crashes or significant bugs, and at a speed fast enough to reasonably enjoy on an average PC. 
 - `status-ingame` - Boots and goes in-game but suffers from one or more of the following: crashes, deadlocks, gpu bugs, distractingly bad audio, or is simply too slow. Game still might able to be played all the way through, but not as the game is intended to play.
 - `status-menus` - Boots and goes past the title screen but does not make it into main gameplay.
-- `status-boots` - Boots but does not make it past the title screen.
-- `status-nothing` - Does not boot/shows no signs of life.
+- `status-intro` - Boots but only gets to the intro.
+- `status-broken` - Does not boot/show signs of life.
 
 Shoutout to the [Ryujinx](https://github.com/Ryujinx/Ryujinx) team, as this repo is based on the [Ryujinx Games List](https://github.com/Ryujinx/Ryujinx-Games-List).
