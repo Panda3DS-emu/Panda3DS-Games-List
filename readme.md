@@ -8,7 +8,7 @@ Anyone is free to update or share their results here, with the following require
 When you update or add additional information in an issue, please reply to the issue indicating your changes.
 
 **Status label cheat sheet**:
-- status-perfect`: - Game runs perfectly
+- `status-perfect`: - Game runs perfectly
 - `status-playable` - Boots and plays without any crashes or significant bugs, and at a speed fast enough to reasonably enjoy on an average PC. 
 - `status-ingame` - Boots and goes in-game but suffers from one or more of the following: crashes, deadlocks, gpu bugs, distractingly bad audio, or is simply too slow. Game still might able to be played all the way through, but not as the game is intended to play.
 - `status-menus` - Boots and goes past the title screen but does not make it into main gameplay.
